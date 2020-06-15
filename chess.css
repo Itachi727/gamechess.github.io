@@ -1,0 +1,72 @@
+
+.board {
+	width: 640px;
+	height: 640px;
+	border: 40px solid; 
+	transform: translate(82%, 0%);
+	
+	}
+	
+
+
+.square {
+	float: left;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+	
+.black {
+	background-color: #999;
+	}
+	
+.white {
+	background-color: #eee;
+	}
+	
+.figure {
+	font-size: 60px;
+	cursor: pointer;
+}
+
+.buttonNew{
+	display: flex;
+	transform: translate(285%, 10%);
+	cursor: pointer;
+	fron-size: 20px;
+	fron-family: monospace;
+	color: #fff;
+	background: linear-gradient(to left, #000000, #2c3e50, #bdc3c7);
+	text-decoration: none;
+	padding: 20px 70px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+	
+}
+.buttonNew:hover {
+	background-position: right; 
+
+}
+
+
+.buttonFlip{
+	display: flex;
+	transform: translate(540%, -90%);
+	cursor: pointer;
+	fron-size: 20px;
+	fron-family: monospace;
+	color: #fff;
+	background: linear-gradient(to left, #000000, #2c3e50, #bdc3c7);
+	text-decoration: none;
+	padding: 20px 90px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+	
+}
+.buttonFlip:hover {
+	background-position: right; 
+}
