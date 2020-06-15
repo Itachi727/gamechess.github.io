@@ -1,2 +1,0 @@
-# game.github.io
-хостинг
