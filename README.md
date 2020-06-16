@@ -1,2 +1,0 @@
-# gamechess.github.io
-Сайт
