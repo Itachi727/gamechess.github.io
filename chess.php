@@ -2,7 +2,7 @@
 
 session_start();
 
-
+include ('chess,js');
 
 if (isset($_GET['newFigures']))
 	$_SESSION['map'] = 'rnbqkbnrpppppppp11111111111111111111111111111111PPPPPPPPRNBQKBNR';
